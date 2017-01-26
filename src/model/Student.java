@@ -10,7 +10,8 @@ public class Student {
     private String studentName;
     private double balance;
 
-    public Student(String studentNumber, String studentName, double balance) {
+
+    public Student() {
         this.studentNumber = studentNumber;
         this.studentName = studentName;
         this.balance = balance;
